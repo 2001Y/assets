@@ -1,8 +1,2 @@
-*.pkg filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.dmg filter=lfs diff=lfs merge=lfs -text
-AppCleaner_3.6.8.zip !text !filter !merge !diff
-OpenInTerminal.zip !text !filter !merge !diff
-Hammerspoon-1.0.0.zip !text !filter !merge !diff
-Tiny_Shield_1.2.0.dmg !text !filter !merge !diff
+# LFS by size only; do not auto-track by extension
 git-lfs-darwin-arm64-v3.7.0.zip !text !filter !merge !diff
